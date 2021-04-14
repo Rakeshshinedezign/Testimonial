@@ -16,3 +16,6 @@
     font-size: 65px;
     padding-bottom: 10px;
 }
+.image-date {
+    display: flex;
+}

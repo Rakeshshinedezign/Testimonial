@@ -55,7 +55,10 @@ function TestimonialTabs() {
                     if (selected == '0') 
                         return (
                             <div> 
-                               <Formparent dataSent={data} clickFunc={updateTheData} /> 
+                               <Provider store={store}>
+                               {/* <Formparent dataSent={data} clickFunc={updateTheData} />  */}
+                               <Testimonialcontentform />
+                               </Provider>
                             </div>
                         )
                     if (selected == '1')
